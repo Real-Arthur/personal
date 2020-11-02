@@ -1,0 +1,28 @@
+img {
+    height: 150px;
+    width: 100px;
+  }
+
+img.me {
+  height: 300px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.navArea {
+  background-image: linear-gradient(#A8DADC, white);
+}
+
+.aboutMeArea {
+  background-image: linear-gradient(0deg,#EAE2B7, white);
+}
+
+/* .mainArea {
+  background-color: #F0EFEB;
+} */
+
+.icons {
+  height: 30px;
+  width: auto;
+}
+
