@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
-import { connect } from 'react-redux';
+import React from 'react';
 import { Grid, Button, Link, Typography } from "@material-ui/core";
 import NavBio from "../NavBio/NavBio"
 
-function NavRow(props) {
-  const [heading, setHeading] = useState('Nav');
-
+function NavRow() {
   return (
     <Grid className="navArea" container direction="row" justify="flex-end" alignItems="stretch">
       <Grid item>

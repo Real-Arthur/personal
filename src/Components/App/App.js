@@ -4,7 +4,7 @@ import About from '../About/About';
 import NavRow from '../Nav/Nav';
 import Resume from '../Resume/Resume';
 import Projects from '../Projects/Projects'
-import { Box, Typography, Grid, Button } from "@material-ui/core";
+import { Box, Typography, Grid, Button, Card } from "@material-ui/core";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
     <Grid item className="navBar">
       <NavRow />
     </Grid>
-    <Grid container className="content" direction="column" alignItems="center">
+    <Grid className="content" container direction="column" alignItems="center" spacing={3}>
       <Grid item>
         <Typography variant="h4">
           Projects I've Been Working On:

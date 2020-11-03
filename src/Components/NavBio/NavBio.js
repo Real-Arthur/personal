@@ -24,8 +24,6 @@ function NavBio(props) {
                 <Grid item>
                     <Typography variant="h4">Full Stack</Typography>
                     <Typography variant="h4">Software Developer</Typography>
-                    <Typography><EmailIcon/>rthrcrsn@gmail.com</Typography>
-                    <Typography><PhoneIcon/>(414) 400-3449</Typography>
                     <Button target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/arthurcarson/" size="small">
                         <img className="icons" src={linkedin} />
                     </Button>
