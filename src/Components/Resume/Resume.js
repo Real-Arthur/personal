@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-import { connect } from 'react-redux';
-import { Grid, Button, Link, Typography, GridListTile, GridListTileBar, GridList, Card, Paper } from "@material-ui/core";
-import Divider from "@material-ui/core/Divider";
+import React from 'react';
+import { Grid, Button, Typography, GridListTile, GridList } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
 import bootstrap from "../../Media/bootstrap.jpg";
 import css from "../../Media/css.jpg";

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Button, Link, Typography } from "@material-ui/core";
+import { Grid, Button, Link } from "@material-ui/core";
 import NavBio from "../NavBio/NavBio"
 
 function NavRow() {

@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import { connect } from 'react-redux';
-import { Grid, Button, Link, Typography, Card, Paper } from "@material-ui/core";
+import { Grid, Button, Typography } from "@material-ui/core";
 import arthur from "../../Media/ArthurCarson.jpg";
 import gitcat from "../../Media/gitcat.jpg";
 import linkedin from "../../Media/linkedin.jpg";
-import EmailIcon from '@material-ui/icons/Email';
-import PhoneIcon from '@material-ui/icons/Phone';
+
 
 function NavBio(props) {
 

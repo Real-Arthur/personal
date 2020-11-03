@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { connect } from 'react-redux';
-import { Grid, Button, Link, Typography, Container, Card } from "@material-ui/core";
+import React from 'react';
+import { Grid, Button, Typography } from "@material-ui/core";
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import MovieSagas from "../../Media/MovieSagas.jpg";
 import CastWatch from "../../Media/CastWatch.mp4";
