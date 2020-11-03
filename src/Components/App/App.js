@@ -1,34 +1,33 @@
 import React from "react"
 import './App.css';
-import { 
-  BrowserRouter as Router,
-  Route, 
-  Switch,
-  Link
-} from "react-router-dom";
-import { connect } from "react-redux";
 import About from '../About/About';
-import Home from '../Home/Home';
 import NavRow from '../Nav/Nav';
 import Resume from '../Resume/Resume';
-import { Box } from "@material-ui/core";
-
-
+import Projects from '../Projects/Projects'
+import { Box, Typography, Grid, Button } from "@material-ui/core";
 
 function App() {
   return (
     <Box>
-    <Box className="navBar">
+    <Grid item className="navBar">
       <NavRow />
-    </Box>
-    <Box className="content">
-      <Router>
-      <Home />
-      </Router>
-    </Box>
-    <Box className="about">
+    </Grid>
+    <Grid container className="content" direction="column" alignItems="center">
+      <Grid item>
+        <Typography variant="h4">
+          Projects I've Been Working On:
+        </Typography>
+    </Grid>
+    <Grid item>
+      <Projects />
+      </Grid>
+    <Grid item>
+      <Resume />
+    </Grid>
+    </Grid>
+    <Grid className="about">
       <About />
-    </Box>
+    </Grid>
     </Box>
   );
 }

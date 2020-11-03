@@ -9,10 +9,10 @@ import gitcat from "../../Media/gitcat.jpg"
 
 function Projects() {
   return (
-    <Grid className="mainArea" container direction="row" justify="space-evenly" alignItems="center">    
+    <Grid id="projects" className="mainArea" container direction="row" justify="space-evenly" alignItems="center">    
       <Grid item>
         <Grid container direction="column">
-            <Grid item>       
+            <Grid item>
             <Button variant="outlined" target="_blank" rel="noreferrer" href="https://github.com/Real-Arthur/solo-project">
               <Typography variant="h6">Cast Watch<img className="icons" src={gitcat} /></Typography>
             </Button>
