@@ -5,6 +5,7 @@ import NavRow from '../Nav/Nav';
 import Resume from '../Resume/Resume';
 import Projects from '../Projects/Projects'
 import { Box, Typography, Grid } from "@material-ui/core";
+import SketchPad from "../SketchPad/SketchPad";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </Grid>
     <Grid item>
       <Resume />
+    </Grid>
+    <Grid>
+      <SketchPad />
     </Grid>
     </Grid>
     <Grid className="about">
