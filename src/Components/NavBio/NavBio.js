@@ -5,10 +5,7 @@ import gitcat from "../../Media/gitcat.jpg";
 import linkedin from "../../Media/linkedin.jpg";
 
 
-function NavBio(props) {
-
-  const [heading, setHeading] = useState('Nav');
-
+function NavBio() {
   return (
     <Grid container direction="row" justify="space-around">
         <Grid item>

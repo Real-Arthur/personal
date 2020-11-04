@@ -4,7 +4,7 @@ import NavBio from "../NavBio/NavBio"
 
 function NavRow() {
   return (
-    <Grid className="navArea" container direction="row" justify="flex-end" alignItems="stretch">
+    <Grid className="navArea" container direction="row" >
       <Grid item>
         <Link href="#projects"><Button variant="outlined" color="primary">Projects</Button></Link>
       </Grid>   

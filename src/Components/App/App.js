@@ -12,7 +12,7 @@ function App() {
     <Grid item className="navBar">
       <NavRow />
     </Grid>
-    <Grid className="content" container direction="column" alignItems="center" spacing={3}>
+    <Grid className="content" container direction="column" alignItems="center" >
       <Grid item>
         <Typography variant="h4">
           Projects I've Been Working On:

@@ -1,8 +1,8 @@
 
-img {
+/* img {
     height: 150px;
     width: 100px;
-  }
+  } */
 
 img.me {
   height: 300px;
@@ -23,7 +23,13 @@ img.me {
 }
 
 .icons {
-  height: 30px;
-  width: auto;
+  height: 150px;
 }
 
+.projectImage {
+  width: 80%;
+}
+
+.aboutImages {
+  width: 50%;
+}

@@ -84,13 +84,18 @@ function Resume() {
           <Typography>View Resume PDF</Typography>
         </Button>
       <Typography variant="h4">SKILLS</Typography>
-      <GridList cellHeight={180} cols={11} className={classes.gridList}>
-        {tileData.map((tile) => (
-          <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
-          </GridListTile>
-        ))}
-      </GridList>
+      <Grid container direction="row" justify="space-evenly"><img className="icons" src={html} />
+      <img className="icons" src={css} alt="CSS logo"/>
+      <img className="icons" src={js} alt="Javascript logo"/>
+      <img className="icons" src={jquery} alt="jQuery logo"/>
+      <img className="icons" src={react} alt="React logo"/>
+      <img className="icons" src={redux} alt="Redux logo"/>
+      <img className="icons" src={node} alt="Node logo"/>
+      <img className="icons" src={bootstrap} alt="Bootstrap logo"/>
+      <img className="icons" src={material} alt="Material-UI logo"/>
+      <img className="icons" src={postgres} alt="PostgreSQL logo"/>
+      <img className="icons" src={gitcat} alt="Github logo"/></Grid>
+      
       <Typography variant="h6">
         HTML, CSS, Javascript, jQuery, React, Redux.js, Node.js, Bootstrap, Material-UI, PostgreSQL, GitHub   
       </Typography>

@@ -36,9 +36,9 @@ function About(props) {
             Catching A Flick
           </Typography>
           <Grid container direction="row" spacing={2}>
-            <Grid item><img src={harrysally} /></Grid>
-            <Grid item><img src={johnwick3} /></Grid>
-            <Grid item><img src={pulpfiction} /></Grid>
+            <Grid item><img className="aboutImages" src={harrysally} /></Grid>
+            <Grid item><img className="aboutImages" src={johnwick3} /></Grid>
+            <Grid item><img className="aboutImages" src={pulpfiction} /></Grid>
           </Grid>
           
       </Grid>
@@ -47,10 +47,10 @@ function About(props) {
         <Typography variant="h6">Liverpool FC and Minnesota United</Typography>
         <Grid container spacing={2}>
           <Grid item>
-            <img src={liverpool} />
+            <img className="aboutImages" src={liverpool} />
           </Grid>
           <Grid item>
-            <img src={mnufc} />
+            <img className="aboutImages" src={mnufc} />
           </Grid>
         </Grid>
       </Grid>
@@ -58,16 +58,16 @@ function About(props) {
         <Typography variant="h6">Reading something nerdy</Typography>
         <Grid container spacing={2}>
           <Grid item>
-            <img src={burningwhite} /> 
+            <img className="aboutImages" src={burningwhite} /> 
           </Grid>
           <Grid item>
-            <img src={dance} /> 
+            <img className="aboutImages" src={dance} /> 
           </Grid>
           <Grid item>
-            <img src={notw} />
+            <img className="aboutImages" src={notw} />
           </Grid>
           <Grid item>
-            <img src={wheel13} />
+            <img className="aboutImages" src={wheel13} />
           </Grid>
         </Grid>
       </Grid>
