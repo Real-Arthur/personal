@@ -8,11 +8,11 @@ import { Box, Typography, Grid } from "@material-ui/core";
 
 function App() {
   return (
-    <Box>
+    <Grid>
     <Grid item className="navBar">
       <NavRow />
     </Grid>
-    <Grid className="content" container direction="column" alignItems="center" >
+    <Grid className="content" container direction="column" alignItems="center">
       <Grid item>
         <Typography variant="h4">
           Projects I've Been Working On:
@@ -28,7 +28,7 @@ function App() {
     <Grid className="about">
       <About />
     </Grid>
-    </Box>
+   </Grid>
   );
 }
 

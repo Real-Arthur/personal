@@ -20,10 +20,10 @@ function NavBio() {
                     <Typography variant="h4">Full Stack</Typography>
                     <Typography variant="h4">Software Developer</Typography>
                     <Button target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/arthurcarson/" size="small">
-                        <img className="bioLinks" className="icons" src={linkedin} />
+                        <img className="icons" src={linkedin} />
                     </Button>
                     <Button target="_blank" rel="noreferrer" href="https://github.com/Real-Arthur" size="small">
-                        <img className="bioLinks" className="icons" src={gitcat} />
+                        <img className="icons" src={gitcat} />
                     </Button>
                 </Grid>
             </Grid>

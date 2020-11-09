@@ -4,6 +4,7 @@
     width: 100px;
   } */
 
+
 img.me {
   height: 300px;
   width: auto;
@@ -22,8 +23,12 @@ img.me {
   background-image: linear-gradient(to top, #EAE2B7, white, #A8DADC);
 }
 
+.projects {
+  padding-left: 15em;
+}
+
 .icons {
-  height: 150px;
+  height: 50px;
 }
 
 .projectImage {
@@ -31,5 +36,9 @@ img.me {
 }
 
 .aboutImages {
-  width: 50%;
+  width: 8em;
+}
+
+.bioLinks {
+  height: 50px;
 }

@@ -9,10 +9,8 @@ import gitcat from "../../Media/gitcat.jpg";
 
 function Projects() {
   return (
-    <Grid id="projects" container direction="column" justify="space-evenly" alignItems="center" spacing={5}>    
-      <Grid item>
-
-            
+    <Grid className="projects" id="projects" container direction="column" justify="space-evenly" alignItems="center" spacing={5}>    
+      <Grid item>     
             <Button variant="outlined" target="_blank" rel="noreferrer" href="https://github.com/Real-Arthur/solo-project">
               <Typography variant="h4">Cast Watch<img className="icons" src={gitcat} /></Typography>
             </Button>
@@ -21,16 +19,10 @@ function Projects() {
             <Typography variant="h5">Duration: Two Weeks</Typography>
             <Typography variant="h5">Technologies Used: PostgresQL, APIs, Redux.js, Axios,</Typography>
             <Typography variant="h5"> React, Node.js, Material UI, Jquery, Javascript, CSS, HTML</Typography>
-            
-            
             <video width="80%" controls>
               <source src={CastWatch} type="video/mp4" />
             </video>
-            
-          
-        
       </Grid>
-      
            <Grid item>
               <Button variant="outlined" target="_blank" rel="noreferrer" href="https://github.com/Real-Arthur/movie-sagas">
                 <Typography variant="h4">Movie Gallery<img className="icons" src={gitcat}/></Typography>
@@ -46,7 +38,7 @@ function Projects() {
         <Button variant="outlined" target="_blank" rel="noreferrer" href="https://github.com/Real-Arthur/redux-feedback-loop">
           <Typography variant="h4">Feedback Forms<img className="icons" src={gitcat}/></Typography>
         </Button>
-        <Typography variant="h6"><FiberManualRecordIcon/>A user feedback form</Typography>
+        <Typography variant="h6">A user feedback form</Typography>
         <Typography variant="h6">Duration: One Day</Typography>
         <Typography variant="h6" style={{"font-weight": "bold"}}>Technologies: Javascript, React, Redux, Express, Node.js, PostgreSQL</Typography>
         <img className="projectImage" src={feedback} />
