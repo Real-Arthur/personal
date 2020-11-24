@@ -4,7 +4,7 @@ import About from '../About/About';
 import NavRow from '../Nav/Nav';
 import Resume from '../Resume/Resume';
 import Projects from '../Projects/Projects'
-import { Box, Typography, Grid } from "@material-ui/core";
+import { Typography, Grid } from "@material-ui/core";
 
 function App() {
   return (

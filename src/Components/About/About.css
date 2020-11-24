@@ -3,7 +3,10 @@
     height: 150px;
     width: 100px;
   } */
-
+html {
+  width: fit-content;
+  padding-left: 1em;
+}
 
 img.me {
   height: 300px;
@@ -21,10 +24,6 @@ img.me {
 
 .content {
   background-image: linear-gradient(to top, #EAE2B7, white, #A8DADC);
-}
-
-.projects {
-  padding-left: 15em;
 }
 
 .icons {

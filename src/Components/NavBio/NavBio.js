@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Grid, Button, Typography } from "@material-ui/core";
 import arthur from "../../Media/ArthurCarson.jpg";
 import gitcat from "../../Media/gitcat.jpg";

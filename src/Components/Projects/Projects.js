@@ -1,16 +1,16 @@
 import React from 'react';
 import { Grid, Button, Typography } from "@material-ui/core";
-import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import MovieSagas from "../../Media/MovieSagas.jpg";
 import CastWatch from "../../Media/CastWatch.mp4";
 import feedback from "../../Media/Feedback.jpg";
 import gitcat from "../../Media/gitcat.jpg";
+import './Projects.css';
 
 
 function Projects() {
   return (
-    <Grid className="projects" id="projects" container direction="column" justify="space-evenly" alignItems="center" spacing={5}>    
-      <Grid item>     
+    <Grid className="projects" id="projects" container direction="column" justify="space-evenly" alignItems="center" spacing={5} >    
+      <Grid className="projectsItems" item>     
             <Button variant="outlined" target="_blank" rel="noreferrer" href="https://github.com/Real-Arthur/solo-project">
               <Typography variant="h4">Cast Watch<img className="icons" src={gitcat} /></Typography>
             </Button>

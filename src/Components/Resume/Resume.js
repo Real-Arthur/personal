@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Button, Typography, GridListTile, GridList } from "@material-ui/core";
+import { Grid, Button, Typography } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
 import bootstrap from "../../Media/bootstrap.jpg";
 import css from "../../Media/css.jpg";

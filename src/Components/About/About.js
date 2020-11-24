@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { connect } from 'react-redux';
-import { Button, Grid, List, ListItem, Typography, Card, Paper } from "@material-ui/core";
+import { Button, Grid, Typography} from "@material-ui/core";
 import liverpool from "../../Media/liverpool.jpg";
 import mnufc from "../../Media/mnufc.jpg";
 import harrysally from "../../Media/harrysally.jpg";
