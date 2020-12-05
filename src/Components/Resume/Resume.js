@@ -78,7 +78,7 @@ function Resume() {
   const classes = useStyles();
 
   return (
-    <Grid id="resume" container direction="column" justify="center" alignItems="center" className={classes.root}>
+    <Grid style={{marginBottom: '4em'}} id="resume" container direction="column" justify="center" alignItems="center" className={classes.root}>
       <Typography variant="h2">Resume</Typography>
       <Button target="_blank" rel="noreferrer" href={resume}  variant="outlined" size="small">
           <Typography>View Resume PDF</Typography>

@@ -7,7 +7,7 @@ import linkedin from "../../Media/linkedin.jpg";
 
 function NavBio() {
   return (
-    <Grid container direction="row" justify="space-around">
+    <Grid style={{marginBottom: '6em'}} container direction="row" justify="space-around">
         <Grid item>
             <Grid container direction="row" alignItems="center" justify="space-around">
                 <Grid item>
