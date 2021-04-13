@@ -1,14 +1,3 @@
-
-/* img {
-    height: 150px;
-    width: 100px;
-  } */
-html {
-  width: fit-content;
-  padding-left: 0px;
-  text-align: center;
-}
-
 img.me {
   height: 300px;
   width: auto;
@@ -36,9 +25,33 @@ img.me {
 }
 
 .aboutImages {
-  width: 8em;
+  float: left;
+  width:  auto;
+  height: 500px;
+  object-fit: cover;
+}
+
+.imageTitle {
+  color: #FEFAE0 !important
 }
 
 .bioLinks {
   height: 50px;
+}
+
+#slideshow { 
+  margin: 50px auto; 
+  position: relative; 
+  width: 240px; 
+  height: 240px; 
+  padding: 10px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  right: 10px; 
+  bottom: 10px; 
 }

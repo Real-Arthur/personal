@@ -4,31 +4,53 @@ import About from '../About/About';
 import NavRow from '../Nav/Nav';
 import Resume from '../Resume/Resume';
 import Projects from '../Projects/Projects'
-import { Typography, Grid } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
+import Container from 'react-bootstrap/Container'
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
+import NavBio from '../NavBio/NavBio';
+
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+
+const useStyles = makeStyles({
+  root: {
+    flexGrow: 1,
+  },
+});
 
 function App() {
+  const classes = useStyles();
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    console.log('value', newValue);
+    
+    setValue(newValue);
+  };
   return (
-    <Grid>
-    <Grid item className="navBar">
-      <NavRow />
-    </Grid>
-    <Grid className="content" container direction="column" alignItems="center">
-      <Grid item>
-        <Typography variant="h4">
-          Projects I've Been Working On:
-        </Typography>
-    </Grid>
-    <Grid item>
-      <Projects />
-      </Grid>
-    <Grid item>
-      <Resume />
-    </Grid>
-    </Grid>
-    <Grid className="about">
-      <About />
-    </Grid>
-   </Grid>
+    <Container>
+      <NavBio />
+      <Paper className={classes.root}>
+      <Tabs
+        style={{backgroundColor: '#FEFAE0'}}
+        value={value}
+        onChange={handleChange}
+        indicatorColor="primary"
+        textColor="primary"
+        centered
+      >
+        <Tab label="Projects" />
+        <Tab label="Resume" />
+        <Tab label="About" />
+      </Tabs>
+    </Paper>
+    {value === 0 && <Projects />}
+    {value === 1 && <Resume />}
+    {value === 2 && <About />}
+  </Container>
   );
 }
 
